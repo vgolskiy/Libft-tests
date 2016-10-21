@@ -6,6 +6,7 @@
 	this test requires you to read it to understand it's output. It's worth it though as it catches a few things the others don't.
 	obviously use it in conjunction with other tests as this is not exhaustive.
 	if you have an issue with the difficulty to use this test rmemeber that 42 rewards
+*/
 
 void	test_test()
 {
@@ -517,7 +518,8 @@ void	size_t_test(void)
 
 int		main(void)
 {
-	ft_putendl("");
+	ft_putendl(" ");
+	ft_putendl("if you seg fault below look at the difference between the above and below lines in the file");
 	ft_putendl("");
 	ft_putendl("lasdjlfohl");
 	ft_putendl("\n\n\n\n\n\n\n");
