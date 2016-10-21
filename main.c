@@ -503,7 +503,7 @@ void	size_t_test(void)
 		return ;
 	}
 	ft_memset(str, 99, 2147483648);
-	if (ft_strlen(str) = 2147483648)
+	if (ft_strlen(str) == 2147483648)
 		ft_putstr("Success");
 	else
 		ft_putstr("INT_MIN, you failed, look at the test");
