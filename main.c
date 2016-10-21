@@ -2,7 +2,10 @@
 #include <string.h>
 #include <ctype.h>
 
-
+/*
+	this test requires you to read it to understand it's output. It's worth it though as it catches a few things the others don't.
+	obviously use it in conjunction with other tests as this is not exhaustive.
+	if you have an issue with the difficulty to use this test rmemeber that 42 rewards
 
 void	test_test()
 {
@@ -514,6 +517,10 @@ void	size_t_test(void)
 
 int		main(void)
 {
+	ft_putendl("");
+	ft_putendl("");
+	ft_putendl("lasdjlfohl");
+	ft_putendl("\n\n\n\n\n\n\n");
 	ft_putendl("l is for libraray, f is for forty two, c is for character, k is for ok, d is for don't use printf");
 	ft_putstr("gcc -O3 is your friend, you should always use it");
 	ft_putchar('\n');
