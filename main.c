@@ -2,6 +2,8 @@
 #include <string.h>
 #include <ctype.h>
 
+
+
 void	test_test()
 {
 	ft_putendl("memcmp");
@@ -504,7 +506,7 @@ void	size_t_test(void)
 	}
 	ft_memset(str, 99, 2147483648);
 	if (ft_strlen(str) == 2147483648)
-		ft_putstr("Success");
+		ft_putendl("Success ignore what comes after this");
 	else
 		ft_putstr("INT_MIN, you failed, look at the test");
 	ft_putendl(" should be 2147483648");
