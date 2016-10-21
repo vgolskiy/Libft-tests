@@ -521,7 +521,8 @@ int		main(void)
 {
 	ft_putendl(" ");
 	ft_putendl("if you seg fault below look at the difference between the above and below lines in the file");
-	ft_putendl("");
+	char *seg_fault;
+	ft_putendl(seg_fault);
 	ft_putendl("\n\n\n\n\n\n\n");
 	ft_putendl("l is for libraray, f is for forty two, c is for character, k is for ok, d is for don't use printf");
 	ft_putstr("gcc -O3 is your friend, you should always use it");
